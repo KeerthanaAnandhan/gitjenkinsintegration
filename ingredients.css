@@ -1,0 +1,16 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li::before {
+    content: "\2022"; /* bullet character */
+    color: #FFA500; /* orange */
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
